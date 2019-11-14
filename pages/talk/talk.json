@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "校园杂谈",
+  "usingComponents": {
+    "van-tab": "../../vant/tab/index",
+    "van-tabs": "../../vant/tabs/index"
+  }
+}

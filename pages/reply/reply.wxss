@@ -1,0 +1,66 @@
+@import "../index/index.wxss";
+ .bg2{
+position:fixed;
+top:0;
+left:0;
+width:750rpx;
+height:420rpx;
+background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1573572005080&di=3522586922844b65714ab9c20f5702a3&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F36%2F54%2F69%2F58fff5261a0d6.png) 
+no-repeat #000;
+background-size:cover;
+z-index:-1;
+}
+
+.textArea2{
+  width: 600rpx;
+  height: 300rpx;
+  display: flex;
+  flex-direction:column;
+  margin-right: 30rpx;
+  margin-top: 100rpx;
+  margin-left: 40rpx;
+  font-size: 30rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+  white-space: pre-line;
+
+}
+.container-content{
+   display: flex;
+  flex-direction: row;
+}
+.head{
+   width: 72rpx;
+  height: 72rpx;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  border-radius: 50%;
+}
+.title-content {
+  width: 300rpx;
+  display: flex;
+  flex-direction:column;
+  margin-right: 5%;
+  margin-top: 40rpx;
+}
+
+.name{
+  margin-left: 20rpx;
+  font-size: 35rpx;
+}
+.replay-content{
+  margin-top: 15rpx;
+  margin-left: 120rpx;
+  font-size: 30rpx;
+
+}
+.line2{
+  width: 100%;
+  height: 3rpx;
+  background-color:#D6D6DB;
+}
+.title-area{
+  height:50rpx;
+   width: 1400rpx;
+  padding: 25rpx 0;
+}

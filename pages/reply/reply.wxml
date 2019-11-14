@@ -1,0 +1,24 @@
+    <view>
+      <view class="bg2">
+  </view>
+      <text space="ensp" class="textArea2">    {{test[0]}}</text>
+      <view class="line"></view>
+       <text space="ensp" class="reply">                                         阅读：{{read1[0]}}   回复Ta</text>
+
+ <view>
+  <block wx:for='{{reply}}' wx:for-index="idx" >
+<view class='container-content'>
+    <image class='head'src='../../images/timg.jpg'></image>
+      <view class='title-content'>
+      <view class='name'>匿名用户</view>   
+      </view>
+      </view>
+      <view class='replay-content'>{{item}}</view>
+      <view class="line2"></view>
+</block>
+</view>
+</view>
+  <view class='title-area'>
+        <textarea name="input-content" type="text" placeholder="输入评论" placeholder-class="holder" ></textarea>
+      </view>
+       <button class="btn">发布评论</button>
