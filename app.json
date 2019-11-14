@@ -4,6 +4,9 @@
     "pages/talk/talk",
     "pages/reply/reply",
     "pages/map/map",
+    "pages/Course/Course",
+    "pages/CourseEnquiry/CourseEnquiry",
+    "pages/EmptyClassRoom/EmptyClassRoom",
     "pages/LocationInfo/LocationInfo"
   ],
   "window": {
