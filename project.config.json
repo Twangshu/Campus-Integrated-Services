@@ -14,8 +14,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.3",
-	"appid": "wxa3a1a639cc16b031",
-	"projectname": "%E6%A0%A1%E5%9B%AD%E9%9B%86%E6%88%90",
+	"appid": "wx52c4895f2272e4a7",
+	"projectname": "Campus-Integrated-Services",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -39,6 +39,10 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 0,
 			"list": [
@@ -46,6 +50,13 @@
 					"id": -1,
 					"name": "pages/talk/talk",
 					"pathName": "pages/talk/talk",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/map/map",
+					"pathName": "pages/map/map",
 					"scene": null
 				}
 			]

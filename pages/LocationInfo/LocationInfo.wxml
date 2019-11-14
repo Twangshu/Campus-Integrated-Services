@@ -1,0 +1,10 @@
+<!--pages/LocationInfo/LocationInfo.wxml-->
+<View class='nav'>
+    <navBar title='' background='rgba(0,0,0,0)' color='#fff' back="{{true}}" home="{{true}}" iconTheme='white' bindback="handlerGobackClick"></navBar>
+</View>
+
+<image class='headerpic' src='../../images/wpj/library_pic_1.jpg'></image>
+<view class='content'>
+  <text class="content-title">{{location_name}}</text>
+  <text space="emsp"  class="content-desc">{{location_disc}}</text>
+</view>

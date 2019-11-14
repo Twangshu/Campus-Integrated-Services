@@ -1,0 +1,11 @@
+<!--pages/map/map.wxml-->
+<View class='nav'>
+    <navBar title='' background='rgba(0,0,0,0)' color='#fff' back="{{true}}" home="{{true}}" iconTheme='white' bindback="handlerGobackClick"></navBar>
+</View>
+<map class="mapcontainer" 
+     longitude="113.405317" 
+     latitude="23.047553"
+     scale="19" 
+     show-compass="ture"
+     markers="{{markers}}"
+     bindmarkertap='onTapMarkers'></map>
