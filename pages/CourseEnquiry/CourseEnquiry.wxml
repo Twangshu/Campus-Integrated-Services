@@ -1,0 +1,50 @@
+<block wx:if="{{select==0}}">
+
+  <view class="textFont">选择课程性质</view>
+  <picker bindchange="pickerChange" value="{{courseNature}}" range="{{courseNatureList}}" id='courseNature'>
+    <van-field label="课程性质" value="{{courseNatureList[courseNature]}}" readonly id='courseNature'/>
+  </picker>
+
+  <view class="textFont">选择学分</view>
+  <picker bindchange="pickerChange" value="{{credit}}" range="{{creditList}}" id='credit'>
+    <van-field label="学分" value="{{creditList[credit]}}" readonly id='credit'/>
+  </picker>
+
+  <view class="textFont">选择开课学院</view>
+  <picker bindchange="pickerChange" value="{{institute}}" range="{{instituteList}}" id='institute'>
+    <van-field label="学院" value="{{instituteList[institute]}}" readonly id='institute'/>
+  </picker>
+
+  <view class="textFont">选择课程类别</view>
+  <picker bindchange="pickerChange" value="{{classKind}}" range="{{classKindList}}" id='classKind'>
+    <van-field label="课程类别" value="{{classKindList[classKind]}}" readonly id='classKind'/>
+  </picker>
+
+  <view class="textFont">选择课程归属</view>
+  <picker bindchange="pickerChange" value="{{courseBelong}}" range="{{courseBelongList}}" id='courseBelong'>
+    <van-field label="课程归属" value="{{courseBelongList[courseBelong]}}" readonly id='courseBelong'/>
+  </picker>
+
+
+  <view class="textFont">选择教师</view>
+  <picker bindchange="pickerChange" value="{{teacher}}" range="{{teacherList}}" id='teacher'>
+    <van-field label="教师" value="{{teacherList[teacher]}}" readonly id='teacher'/>
+  </picker>
+  
+  <button type="primary" style="margin-top:30rpx;border-radius: 50rpx;" bindtap="SelectCourse">查询</button>
+
+
+</block>
+
+
+<view wx:else>
+<view class="textFont">查询结果{{courseList.length}}条</view>
+<block wx:for="{{courseList}}" wx:for-index='idx'>
+  <view class="course" bindtap="showCourse" data-course_id='{{item.course_id}}'>
+    <view class="textFont2">{{item.courseName}}</view>
+  </view>
+</block>
+
+<button style="margin-top:30rpx;border-radius: 50rpx;" bindtap="GoBack">返回</button>
+
+</view>

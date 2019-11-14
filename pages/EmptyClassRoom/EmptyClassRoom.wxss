@@ -1,0 +1,20 @@
+page{
+  background: #EFEFF4;
+}
+.textFont{
+  margin-left: 20rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  font-size: 35rpx;
+}
+.classRoom{
+  background: white;
+  font-size: 35rpx;
+  margin: 30rpx;
+  padding: 15rpx;
+  text-align: center;
+  border-radius:20rpx;
+}
+.textFont2{
+  font-size: 45rpx;
+}

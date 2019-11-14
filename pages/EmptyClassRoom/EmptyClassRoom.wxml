@@ -1,0 +1,40 @@
+<block wx:if="{{select==0}}">
+  <view class="textFont">选择校区</view>
+  <picker bindchange="pickerChange" value="{{place}}" range="{{placeList}}" id='place'>
+    <van-field label="校区" value="{{placeList[place]}}" readonly id='place'/>
+  </picker>
+
+  <view class="textFont">选择教室类别</view>
+  <picker bindchange="pickerChange" value="{{roomKind}}" range="{{roomKindList}}" id='roomKind'>
+    <van-field label="教室类别" value="{{roomKindList[roomKind]}}" readonly id='roomKind'/>
+  </picker>
+
+  <view class="textFont">选择周</view>
+  <picker bindchange="pickerChange" value="{{week}}" range="{{weekList}}" id='week'>
+    <van-field label="周" value="{{weekList[week]}}" readonly id='week'/>
+  </picker>
+
+  <view class="textFont">选择星期</view>
+  <picker bindchange="pickerChange" value="{{day}}" range="{{dayList}}" id='day'>
+    <van-field label="星期" value="{{dayList[day]}}" readonly id='day'/>
+  </picker>
+
+  <view class="textFont">选择时段</view>
+  <picker bindchange="pickerChange" value="{{time}}" range="{{timeList}}" id='time'>
+    <van-field label="时段" value="{{timeList[time]}}" readonly id='time'/>
+  </picker>
+  <button type="primary" style="margin-top:30rpx;border-radius: 50rpx;" bindtap="SelectClass">查询</button>
+</block>
+
+
+<view wx:else>
+<view class="textFont">查询结果{{emptyClassRoomList.length}}条</view>
+<block wx:for="{{emptyClassRoomList}}" wx:for-index='idx'>
+  <view class="classRoom">
+    <view class="textFont2">{{item.classRoomID}}</view>
+  </view>
+</block>
+
+<button style="margin-top:30rpx;border-radius: 50rpx;" bindtap="GoBack">返回</button>
+
+</view>

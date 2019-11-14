@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "查询空教室",
+  "usingComponents": {
+    "van-field": "../../vant/field/index"
+  }
+}

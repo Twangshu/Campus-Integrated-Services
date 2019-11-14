@@ -1,0 +1,12 @@
+<van-cell-group>
+  <van-cell title="{{course.courseName}}" border="{{ false }}" size="large"/>
+  <van-cell title="课程性质" value="{{course.courseNature}}"/>
+  <van-cell title="教师" value="{{course.teacher}}"/>
+  <van-cell title="开课学院" value="{{course.institute}}"/>
+  <van-cell title="学分" value="{{course.credit}}"/>
+  <van-cell title="课程类别" value="{{course.classKind}}"/>
+  <van-cell title="课程归属" value="{{course.courseBelong}}"/>
+  <van-cell title="课程简介" label="{{course.brief}}"/>
+</van-cell-group>
+
+<button style="margin-top:30rpx;border-radius: 50rpx;" bindtap="GoBack">返回</button>

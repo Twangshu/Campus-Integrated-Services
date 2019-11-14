@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "课程查询",
+  "usingComponents": {
+    "van-field": "../../vant/field/index"
+  }
+}
