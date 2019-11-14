@@ -1,0 +1,23 @@
+  <view class="page">
+      <view class="page__hd page__header">
+        <image class="weui-media-box__thumb" src="{{logo}}" />
+        <view class="page__title">「华工课表」0.0.1</view>
+      </view>
+      <view class="page__bd">
+        <view class="weui-article">
+          <view class="weui-article__p">「华工课表」提供华工在校生班级课表及教师课表。</view>
+          <view class="weui-article__p black">   数据仅作测试，并不真实</view>
+          
+         
+          <view class="weui-center">
+            <button class="weui-btn mini-btn" size="mini" open-type="contact">联系&反馈</button>
+            <button class="weui-btn mini-btn" size="mini" open-type="share">分享给朋友</button>
+          </view>
+        </view>
+        <view class="weui-footer weui-footer_fixed-bottom">
+            <view class="weui-footer__links">
+            </view>
+            <view class="weui-footer__text">©2019 华工课表</view>
+        </view>
+      </view>
+  </view>
