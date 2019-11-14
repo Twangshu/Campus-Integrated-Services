@@ -1,4 +1,4 @@
-@import "../index/index.wxss";
+@import "../talk/talk.wxss";
  .bg2{
 position:fixed;
 top:0;

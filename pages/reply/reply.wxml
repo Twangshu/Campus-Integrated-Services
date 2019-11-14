@@ -3,7 +3,7 @@
   </view>
       <text space="ensp" class="textArea2">    {{test[0]}}</text>
       <view class="line"></view>
-       <text space="ensp" class="reply">                                         阅读：{{read1[0]}}   回复Ta</text>
+       <text space="ensp" class="reply">                                        阅读：{{read1[0]}}   回复Ta</text>
 
  <view>
   <block wx:for='{{reply}}' wx:for-index="idx" >
