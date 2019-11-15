@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "校园杂谈",
+  "navigationBarTitleText": "畅所欲言",
   "usingComponents": {
     "van-tab": "../../vant/tab/index",
     "van-tabs": "../../vant/tabs/index"
