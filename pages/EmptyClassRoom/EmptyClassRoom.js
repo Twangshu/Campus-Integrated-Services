@@ -21,8 +21,8 @@ Page({
     timeList: ["第1,2节", "第3,4节", "第5,6节", "第7,8节", "第9,10,11节"],
     emptyClassRoomList: [
       { place: "南校区", roomKind: "计算机房", week: 1, day: "星期一", time: "第1,2节", classRoomID: "A1101" },
-      { place: "南校区", roomKind: "计算机房", week: 1, day: "星期一", time: "第1,2节", classRoomID: "A1101" },
-      { place: "南校区", roomKind: "计算机房", week: 1, day: "星期一", time: "第1,2节", classRoomID: "A1101" }]
+      { place: "南校区", roomKind: "计算机房", week: 1, day: "星期一", time: "第1,2节", classRoomID: "A1102" },
+      { place: "南校区", roomKind: "计算机房", week: 1, day: "星期一", time: "第1,2节", classRoomID: "A1103" }]
   },
 
   pickerChange: function (e) {

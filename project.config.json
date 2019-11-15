@@ -57,6 +57,14 @@
 					"id": -1,
 					"name": "pages/map/map",
 					"pathName": "pages/map/map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/table/table",
+					"pathName": "pages/table/table",
+					"query": "",
 					"scene": null
 				}
 			]
